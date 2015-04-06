@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+	<TextView
+	    android:id="@+id/TextTitulo"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/titulo"
+	    /> 
+
+    <TextView
+        android:id="@+id/saudacaoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_below="@+id/TextTitulo" />      									/>
+
+    <EditText
+        android:id="@+id/nomeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:ems="10" 
+        android:inputType="textPersonName"	/>
+    
+     	
+
+    <Button
+        android:id="@+id/saudacaoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nomeEditText"
+        android:layout_marginTop="90dp"
+        android:text="@string/surpreenda_me" 
+        android:onClick="surpreenderUsuario"
+        />
+		
+</RelativeLayout>

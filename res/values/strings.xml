@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HelloWordApp</string>
+    <string name="titulo">informe seu nome</string><string name="hello_world">Hello world!</string>
+	<string name="surpreenda_me">Surpreenda-me</string>
+	<string name="saudacao">Olá </string>
+	
+    
+    
+    
+    
+</resources>
